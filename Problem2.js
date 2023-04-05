@@ -8,3 +8,10 @@ let lionMoney = {
   주용: 2800,
   맑음: 50000,
 };
+
+let sum=0;
+for(let ele in lionMoney) {
+  sum+=lionMoney[ele];
+}
+
+return sum;
